@@ -9,7 +9,15 @@ module.exports = {
     // You can overwrite values here that are used for the SEO component
     // Of course you can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/master/themes/gatsby-theme-cara/gatsby-config.js
-    siteTitleAlt: `Cara - Gatsby Starter Portfolio`,
+    siteTitle: `Alissa Petty`,
+    siteTitleAlt: `Alissa Petty`,
+    siteHeadline: `Web Developer`,
+    siteUrl: `https://www.alissapetty.com`,
+    siteDescription: `Personal Portfolio Website`,
+    siteLanguage: `en_US`,
+    siteImage: ``,
+    author: `Alissa Petty`
+
   },
   plugins: [
     {
@@ -17,12 +25,12 @@ module.exports = {
       // See the theme's README for all available options
       options: {},
     },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: process.env.GOOGLE_ANALYTICS_ID,
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-google-analytics`,
+    //   options: {
+    //     trackingId: process.env.GOOGLE_ANALYTICS_ID,
+    //   },
+    // },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
